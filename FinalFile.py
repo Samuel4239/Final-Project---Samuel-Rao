@@ -232,7 +232,7 @@ def main():
     
     # Tab for explosion data, includes deployment method query for yield bar chart and slider for explosion counts by country
     with tab2:
-        st.header(":red[Average Yield by Deployment Method]", divider = "red")
+        st.header(":red[Average Yield by Detonation Purpose]", divider = "red")
         st.markdown(":grey[Yield refers to the amount of energy produced by the explosion of a nuclear weapon measured in kilotons. The graph below illustrates the relationship between the average yield of nuclear explosions and the purpose of detonation, further categorized by the variable deployment method of the nuclear weapon.]")
         # Dropdown to select deployment method
         method = st.selectbox("Select Deployment Method", sorted(df['Deployment Method'].dropna().unique()))
