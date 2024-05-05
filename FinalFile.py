@@ -14,7 +14,6 @@ import pandas as pd
 import pydeck as pdk
 import altair as alt
 import streamlit as st
-import matplotlib.pyplot as plt
 from datetime import datetime
 
 # Function to prepare database for use, renames columns to appropriate names and adds desired columns for later user
